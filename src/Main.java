@@ -1,13 +1,11 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        //Değişkenleri oluştur.
+
         int mat,fzk,kmy,trk,trh,mzk;
 
-        //Scanner sınıfımızı tanımladık.
         Scanner inp = new Scanner(System.in);
 
-        //Kullanıcıdan değerleri al.
         System.out.print("Matematik notunuz: ");
         mat = inp.nextInt();
 
